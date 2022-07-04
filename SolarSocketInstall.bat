@@ -46,7 +46,7 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"
 :-------------------------------------- 
 cd %userprofile%\.lunarclient\solartweaks\
-powershell -Command "(New-Object Net.WebClient).DownloadFile('https://cdn.discordapp.com/attachments/901916555925930016/993383897993846805/autosocket.py', 'socketinstall.py')"
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://github.com/RadNotRed/solarsocketutilities/blob/main/autosocket.py', 'autosocket.py')"
 python %userprofile%\.lunarclient\solartweaks\socketinstall.py
 del socketinstall.py
 exit
