@@ -33,6 +33,6 @@ taskkill /f /im "solar tweaks.exe"
 rmdir /s /q "%userprofile%\.lunarclient\solartweaks"
 rmdir /s /q "%appdata%\solartweaks"
 "C:\Program Files\Solar Tweaks\Uninstall Solar Tweaks.exe"
-cd "%userprofile%\downloads" &&  powershell -Command "(New-Object Net.WebClient).DownloadFile('https://github.com/Solar-Tweaks/Solar-Tweaks/releases/latest/download/Solar.Tweaks.Setup.4.0.2.exe', 'SolarSetup.exe')"
+cd "%userprofile%\downloads" &&  powershell -Command "(New-Object Net.WebClient).DownloadFile('https://github.com/Solar-Tweaks/Solar-Tweaks/releases/latest/download/Solar.Tweaks.Setup.4.0.3.exe', 'SolarSetup.exe')"
 .\SolarSetup.exe
 exit
